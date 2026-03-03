@@ -1,0 +1,7 @@
+# We are initializing a dummy DVC configuration to represent the remote backend setup
+
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gs://my-mlops-project-123-ml-artifacts/dvc-store
+    # You would authenticate utilizing GCP service accounts
